@@ -5,15 +5,78 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 img {
   display: block;
+  width: 100%;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  letter-spacing: -0.045em;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h3 {
+  margin-top: 36px;
+}
+
+h3,
+.role {
+  text-transform: uppercase;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .flex {
   display: flex;
+  gap: var(--space, 1em);
+}
+
+.grid {
+  margin-top: 75px;
+  display: grid;
+  gap: var(--space, 2em);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.user:nth-of-type(even) {
+  margin-top: 50px;
+}
+
+.user > .flex {
+  --space: 0;
+}
+
+.role {
+  writing-mode: vertical-lr;
+  font-family: "PT Serif", serif;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 100px;
+  color: hsla(0, 0%, 66%, 1);
+  text-align: center;
+}
+
+.footer > strong {
+  text-decoration: underline;
 }
