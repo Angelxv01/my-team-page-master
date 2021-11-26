@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
