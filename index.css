@@ -64,7 +64,7 @@ h5 {
 
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 100px auto 10px auto;
 }
 
 .description {
@@ -79,4 +79,16 @@ h5 {
 
 .footer > strong {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .user:nth-of-type(even) {
+    margin-top: 0;
+  }
+  .user:nth-of-type(3n + 2) {
+    margin-top: 100px;
+  }
 }
