@@ -40,9 +40,10 @@
 ![screenshot](https://github.com/Angelxv01/my-team-page-master/blob/main/mobile.jpeg)
 
 Check out the solution and the demo clicking the links above.
-This is my second devchallenge and it was way easier when you get started, I think it's really enjoying and gives a lot to learn like the vertical aligned text or the different spacing to make the webpage more interesing.
+This is my second devchallenge and it was way easier when you get started, I think it's really enjoying and gives a lot to learn. 
+Some challenges I faced are the vertical aligned text or the different spacing to make the webpage more interesing.
 
-This project, like the first one gave me a lot of confidence in my skills and me beautiful projects!
+This project, like the first one gave me a lot of confidence in my skills and let me made another beautiful project.
 
 ### Built With
 
@@ -55,7 +56,8 @@ This application was build with simple HTML and CSS. The main goal is to create 
 
 ## Acknowledgements
 
-None
+- [Vertical aligned text](https://www.w3schools.com/cssref/css3_pr_writing-mode.asp)
+- [Select the elements to add margin](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
 
 ## Contact
 
